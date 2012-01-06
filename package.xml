@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.wbbaddons.dummy.app" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename>Dummy App</packagename>
+		<packagedescription></packagedescription>
+		<standalone>1</standalone>
+		<version>1.0.0 Alpha 1</version>
+		<date>2011-08-28</date>
+		<unique>0</unique>
+		<license>license.txt</license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Tim Düsterhus]]></author>
+		<authorurl>http://timwolla.wbbaddons.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage file="requirements/com.woltlab.wcf.acl.tar.gz">com.woltlab.wcf.acl</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.label.tar.gz">com.woltlab.wcf.label</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.bbcode.tar.gz">com.woltlab.wcf.bbcode</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.visitTracker.tar.gz">com.woltlab.wcf.visitTracker</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.ckeditor.tar.gz">com.woltlab.wcf.ckeditor</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.notification.tar.gz">com.woltlab.wcf.notification</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.recaptcha.tar.gz">com.woltlab.wcf.recaptcha</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.user.tar.gz">com.woltlab.wcf.user</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.like.tar.gz">com.woltlab.wcf.like</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.comment.tar.gz">com.woltlab.wcf.comment</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.message.tar.gz">com.woltlab.wcf.message</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.message.sidebar.tar.gz">com.woltlab.wcf.message.sidebar</requiredpackage>
+	</requiredpackages>
+	
+	<optionalpackages>
+		<optionalpackage file="optionals/Tims-Chat.tar.gz">timwolla.wcf.chat</optionalpackage>
+	</optionalpackages>
+	
+	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="sql">install.sql</instruction>
+		<instruction type="pageMenu">pagemenu.xml</instruction>
+	</instructions>
+</package>
