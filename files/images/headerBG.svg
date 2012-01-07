@@ -28,9 +28,6 @@
 			<stop stop-color="#2792e1" stop-opacity="0" offset="1"/>
 		</linearGradient>
 	</defs>
-	<g display="none">
-		<rect y="-270" width="1e3" fill="url(#e)" x="0" height="300"/>
-	</g>
 	<g opacity=".38721">
 		<path d="m0 12c7.6667-4 15.333-8 23-12h45c-2 3-3 11.624 0 18.624-16.182-9.1101-59.5-18.186-60 5.376-11-9-11-10-8-12" fill="url(#h)"/>
 	</g>
@@ -42,6 +39,5 @@
 		<path d="m69 2.6667e-7c-3 5-33 12-64 0" fill="url(#g)"/>
 	</g>
 	<path fill="#4e97db" d="m82 30h18v-14c-3-2-26-12-45-12-45 2-55 26-55 26 30-32 69-17 82 0z" fill-opacity=".17308"/>
-	<path stroke="#000" stroke-width="1px" d="m29 26z" fill="none"/>
-	<path fill="#396ba2" d="m23 30c-5-6-15-11-23-14v14z" fill-opacity=".073077"/>
+
 </svg>
