@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="64" width="256" viewBox="0 0 100 30" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 30" xml:space="preserve">
 	<title>Dummy App Background</title>
 	<desc>Dummy App background image</desc>
 	
@@ -39,5 +39,4 @@
 		<path d="m69 2.6667e-7c-3 5-33 12-64 0" fill="url(#g)"/>
 	</g>
 	<path fill="#4e97db" d="m82 30h18v-14c-3-2-26-12-45-12-45 2-55 26-55 26 30-32 69-17 82 0z" fill-opacity=".17308"/>
-
 </svg>
