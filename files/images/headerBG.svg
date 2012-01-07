@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="64" width="256" viewBox="0 0 100 30" xml:space="preserve">
+	<title>Dummy App Background</title>
+	<desc>Dummy App background image</desc>
+	
+	<!--
+		@author		Maximilian Mader
+		@copyright	2011 Tim Düsterhus 
+		@license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php> 
+	--> 
+	
+	<defs>
+		<linearGradient id="e" x1="61" gradientUnits="userSpaceOnUse" y1="13" gradientTransform="matrix(11.765 0 0 10 -176.47 -270)" x2="61" y2="-1">
+			<stop stop-color="#29374a" offset="0"/>
+			<stop stop-color="#4c789f" offset="1"/>
+		</linearGradient>
+		<linearGradient id="f" gradientUnits="userSpaceOnUse" x2="94" x1="44" y1="12">
+			<stop stop-color="#2b7ceb" stop-opacity="0" offset="0"/>
+			<stop stop-color="#2d76c3" stop-opacity=".54444" offset="1"/>
+		</linearGradient>
+		<linearGradient id="g" y2="1" gradientUnits="userSpaceOnUse" y1="2" x2="19" x1="74">
+			<stop stop-color="#198ee9" stop-opacity="0" offset="0"/>
+			<stop stop-color="#4c789f" stop-opacity=".67778" offset="1"/>
+		</linearGradient>
+		<linearGradient id="h" y2="3" gradientUnits="userSpaceOnUse" y1="13" x2="53" x1="6">
+			<stop stop-color="#2792e1" stop-opacity=".088889" offset="0"/>
+			<stop stop-color="#2792e1" stop-opacity="0" offset="1"/>
+		</linearGradient>
+	</defs>
+	<g display="none">
+		<rect y="-270" width="1e3" fill="url(#e)" x="0" height="300"/>
+	</g>
+	<g opacity=".38721">
+		<path d="m0 12c7.6667-4 15.333-8 23-12h45c-2 3-3 11.624 0 18.624-16.182-9.1101-59.5-18.186-60 5.376-11-9-11-10-8-12" fill="url(#h)"/>
+	</g>
+	<path fill="#32445a" d="m100 12-29 15h29z" fill-opacity=".33077"/>
+	<g opacity=".49495">
+		<path d="m94 2.6667e-7c-6 8-54 44-47 0" fill="url(#f)"/>
+	</g>
+	<g opacity=".71044">
+		<path d="m69 2.6667e-7c-3 5-33 12-64 0" fill="url(#g)"/>
+	</g>
+	<path fill="#4e97db" d="m82 30h18v-14c-3-2-26-12-45-12-45 2-55 26-55 26 30-32 69-17 82 0z" fill-opacity=".17308"/>
+	<path stroke="#000" stroke-width="1px" d="m29 26z" fill="none"/>
+	<path fill="#396ba2" d="m23 30c-5-6-15-11-23-14v14z" fill-opacity=".073077"/>
+</svg>
