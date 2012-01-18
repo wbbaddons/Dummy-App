@@ -3,7 +3,7 @@
 	<packageinformation>
 		<packagename>Dummy App</packagename>
 		<packagedescription></packagedescription>
-		<standalone>1</standalone>
+		<isapplication>1</isapplication>
 		<version>1.0.0 Alpha 1</version>
 		<date>2011-08-28</date>
 		<unique>0</unique>
