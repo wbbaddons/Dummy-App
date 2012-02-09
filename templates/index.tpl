@@ -23,7 +23,7 @@
 <body id="tpl{$templateName|ucfirst}">
 {include file='header' sandbox=false}
 
-<header class="mainHeading">
+<header class="wcf-mainHeading">
 	<img src="{icon size='L'}home1{/icon}" alt="" />
 	<hgroup>
 		<h1>{PAGE_TITLE|language}</h1>
@@ -31,7 +31,7 @@
 	</hgroup>
 </header>
 
-<div class="border infobox" style="padding: 5px;">
+<div class="wcf-border infobox" style="padding: 5px;">
 	<div id="infoBoxUsersOnline" class="infoboxContentContainer">
 		<img src="{icon size=M}users1{/icon}" alt="" />
 		<div class="infoboxContent">

@@ -1,10 +1,10 @@
 <a id="top"></a>
 <!-- HEADER -->
-<header id="pageHeader" class="pageHeader">
+<header id="pageHeader" class="wcf-pageHeader">
 	<div>
 		{hascontent}
 			<!-- top menu -->
-			<nav id="topMenu" class="topMenu">
+			<nav id="topMenu" class="wcf-topMenu">
 				<div>
 					<ul>
 						{content}{event name='topMenu'}{/content}
@@ -15,7 +15,7 @@
 		{/hascontent}
 		
 		<!-- logo -->
-		<div id="logo" class="logo">
+		<div id="logo" class="wcf-logo">
 			<!-- clickable area -->
 			<a href="{link controller='Index'}{/link}">
 				<h1>Dummy App Alpha 1</h1>
@@ -34,7 +34,7 @@
 		<!-- /main menu -->
 		
 		<!-- header navigation -->
-		<nav class="headerNavigation">
+		<nav class="wcf-headerNavigation">
 			<div>
 				<ul>
 					<li id="toBottomLink" class="toBottomLink"><a href="#bottom" title="{lang}wcf.global.scrollDown{/lang}" class="balloonTooltip"><img src="{icon size='S'}toBottom{/icon}" alt="" /> <span class="invisible">{lang}wcf.global.scrollDown{/lang}</span></a></li>
@@ -48,16 +48,16 @@
 <!-- /HEADER -->
 
 <!-- MAIN -->
-<div id="main" class="main{if $sidebarOrientation|isset} {@$sidebarOrientation}{/if}">
+<div id="main" class="wcf-main{if $sidebarOrientation|isset} {@$sidebarOrientation}{/if}">
 	<div>
 		{if $sidebar|isset}
-			<aside class="sidebar">
+			<aside class="wcf-sidebar">
 				{@$sidebar}
 			</aside>
 		{/if}
 				
 		<!-- CONTENT -->
-		<section id="content" class="content">
+		<section id="content" class="wcf-content">
 			
 			{include file='breadcrumbs' sandbox=false}
 			
