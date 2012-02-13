@@ -16,8 +16,9 @@
 			<environment>user</environment>
 			<templatename>header</templatename>
 			<eventname>headerLogo</eventname>
-			<templatecode><![CDATA[ <h1>Dummy App Alpha 1</h1>
-				<img src="{@$__wcf->getPath('app')}images/DummyAppLogo.svg" width="256" height="64" alt="Dummy App Logo" title="Dummy App Alpha 1" />]}]]>	
+			<templatecode><![CDATA[
+				<h1>Dummy App Alpha 1</h1>
+				<img src="{@$__wcf->getPath('app')}images/DummyAppLogo.svg" width="256" height="64" alt="Dummy App Logo" title="Dummy App Alpha 1" />]]>	
 			</templatecode>
 		</templatelistener>
 	</import>
