@@ -21,7 +21,6 @@
 		<requiredpackage file="requirements/com.woltlab.wcf.bbcode.tar">com.woltlab.wcf.bbcode</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.visitTracker.tar">com.woltlab.wcf.visitTracker</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.ckeditor.tar">com.woltlab.wcf.ckeditor</requiredpackage>
-		<requiredpackage file="requirements/com.woltlab.wcf.notification.tar">com.woltlab.wcf.notification</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.recaptcha.tar">com.woltlab.wcf.recaptcha</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.user.tar">com.woltlab.wcf.user</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.like.tar">com.woltlab.wcf.like</requiredpackage>
