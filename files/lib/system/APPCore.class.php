@@ -20,7 +20,7 @@ class APPCore extends AbstractApplication {
 	protected $packageID = 0;
 	
 	public function __construct() {
-		$this->packageID = PackageDependencyHandler::getPackageID('de.wbbaddons.dummy.app');
+		$this->packageID = PackageDependencyHandler::getInstance()->getPackageID('de.wbbaddons.dummy.app');
 		
 		$this->initTPL();
 		PageMenu::getInstance()->setActiveMenuItem('app.header.menu.index');
