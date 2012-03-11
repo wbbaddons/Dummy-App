@@ -7,7 +7,7 @@
 			<eventname>stylesheetImport</eventname>
 			<templatecode><![CDATA[
 	body {
-		background-image: url("{RELATIVE_APP_DIR}images/headerBG.svg");
+		background-image: url("{@$__wcf->getPath('app')}images/headerBG.svg");
 		background-repeat: repeat-x;
 		background-size: 1000px 300px;
 	}]]>	</templatecode>
@@ -18,7 +18,7 @@
 			<eventname>headerLogo</eventname>
 			<templatecode><![CDATA[
 				<h1>Dummy App Alpha 1</h1>
-				<img src="{@$__wcf->getPath('app')}images/DummyAppLogo.svg" width="256" height="64" alt="Dummy App Logo" title="Dummy App Alpha 1" />]]>	
+				<img src="{@$__wcf->getPath('app')}images/DummyAppLogo.svg" width="256" height="64" alt="Dummy App Logo" title="Dummy App Alpha 1" />]]>
 			</templatecode>
 		</templatelistener>
 	</import>
