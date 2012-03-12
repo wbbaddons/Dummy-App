@@ -10,7 +10,7 @@
 		background-image: url("{@$__wcf->getPath('app')}images/headerBG.svg");
 		background-repeat: repeat-x;
 		background-size: 1000px 300px;
-	}]]>	</templatecode>
+	}]]></templatecode>
 		</templatelistener>
 		<templatelistener name="dummyAppHeaderLogoInclude">
 			<environment>user</environment>
@@ -20,6 +20,12 @@
 				<h1>Dummy App Alpha 1</h1>
 				<img src="{@$__wcf->getPath('app')}images/DummyAppLogo.svg" width="256" height="64" alt="Dummy App Logo" title="Dummy App Alpha 1" />]]>
 			</templatecode>
+		</templatelistener>
+		<templatelistener name="stylesheetImport">
+			<environment>user</environment>
+			<templatename>headInclude</templatename>
+			<eventname>stylesheetImport</eventname>
+			<templatecode><![CDATA[@import url("{@$__wcf->getPath('wcf')}style/user.css") screen;]]></templatecode>
 		</templatelistener>
 	</import>
 </data>
