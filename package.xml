@@ -5,8 +5,7 @@
 		<packagedescription></packagedescription>
 		<isapplication>1</isapplication>
 		<version>1.0.0 Alpha 1</version>
-		<date>2011-08-28</date>
-		<unique>0</unique>
+		<date>2012-03-25</date>
 		<license>license.txt</license>
 	</packageinformation>
 	
@@ -17,6 +16,7 @@
 	
 	<requiredpackages>
 		<requiredpackage file="requirements/com.woltlab.wcf.acl.tar">com.woltlab.wcf.acl</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.acp.language.tar">com.woltlab.wcf.acp.language</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.label.tar">com.woltlab.wcf.label</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.bbcode.tar">com.woltlab.wcf.bbcode</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.visitTracker.tar">com.woltlab.wcf.visitTracker</requiredpackage>
