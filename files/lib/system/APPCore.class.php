@@ -8,14 +8,13 @@ use wcf\system\request\LinkHandler;
 use wcf\system\WCF;
 
 /**
- * Application core
+ * Application core.
  *
- * @author 	Tim Düsterhus
- * @copyright	2011 Tim Düsterhus
- * @license GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl-3.0.txt>
+ * @author	Tim Düsterhus
+ * @copyright	2011 - 2012 Tim Düsterhus
+ * @license	GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl-3.0.txt>
  * @package	de.wbbaddons.dummy.app
  */
-
 class APPCore extends AbstractApplication {
 	protected $packageID = 0;
 	
@@ -24,7 +23,12 @@ class APPCore extends AbstractApplication {
 		
 		$this->initTPL();
 		PageMenu::getInstance()->setActiveMenuItem('app.header.menu.index');
-		WCF::getBreadcrumbs()->add(new Breadcrumb(WCF::getLanguage()->get('app.header.menu.index'), LinkHandler::getInstance()->getLink('Index', array('application' => 'app'))));
+		WCF::getBreadcrumbs()->add(new Breadcrumb(
+			WCF::getLanguage()->get('app.header.menu.index'), 
+			LinkHandler::getInstance()->getLink('Index', array(
+				'application' => 'app'
+			))
+		));
 	}
 	
 	protected function initTPL() {
