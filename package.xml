@@ -17,17 +17,17 @@
 	<requiredpackages>
 		<requiredpackage file="requirements/com.woltlab.wcf.acl.tar">com.woltlab.wcf.acl</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.acp.language.tar">com.woltlab.wcf.acp.language</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.attachment.tar">com.woltlab.wcf.attachment</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.label.tar">com.woltlab.wcf.label</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.bbcode.tar">com.woltlab.wcf.bbcode</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.visitTracker.tar">com.woltlab.wcf.visitTracker</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.ckeditor.tar">com.woltlab.wcf.ckeditor</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.recaptcha.tar">com.woltlab.wcf.recaptcha</requiredpackage>
-		<requiredpackage file="requirements/com.woltlab.wcf.like.tar">com.woltlab.wcf.like</requiredpackage>
-		<requiredpackage file="requirements/com.woltlab.wcf.comment.tar">com.woltlab.wcf.comment</requiredpackage>
-		<requiredpackage file="requirements/com.woltlab.wcf.attachment.tar">com.woltlab.wcf.attachment</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.message.tar">com.woltlab.wcf.message</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.message.sidebar.tar">com.woltlab.wcf.message.sidebar</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.user.tar">com.woltlab.wcf.user</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.like.tar">com.woltlab.wcf.like</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.comment.tar">com.woltlab.wcf.comment</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">
