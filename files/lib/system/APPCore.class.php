@@ -18,7 +18,7 @@ use wcf\system\WCF;
 class APPCore extends AbstractApplication {
 	protected $packageID = 0;
 	
-	public function __construct() {
+	public function init() {
 		$this->packageID = PackageDependencyHandler::getInstance()->getPackageID('de.wbbaddons.dummy.app');
 		
 		$this->initTPL();
