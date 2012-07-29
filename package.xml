@@ -28,6 +28,7 @@
 		<requiredpackage file="requirements/com.woltlab.wcf.like.tar">com.woltlab.wcf.like</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.message.sidebar.tar">com.woltlab.wcf.message.sidebar</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.comment.tar">com.woltlab.wcf.comment</requiredpackage>
+		<requiredpackage file="requirements/com.woltlab.wcf.tagging.tar">com.woltlab.wcf.tagging</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">
