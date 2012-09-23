@@ -10,7 +10,7 @@
 {include file='header' sandbox=false}
 
 <header class="box48 boxHeadline">
-	<img src="{icon size='L'}home1{/icon}" alt="" class="icon48" />
+	<img src="{icon size='L'}home{/icon}" alt="" class="icon48" />
 	<hgroup>
 		<h1>{PAGE_TITLE|language}</h1>
 		{hascontent}<h2>{content}{PAGE_DESCRIPTION|language}{/content}</h2>{/hascontent}
