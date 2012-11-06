@@ -16,12 +16,7 @@ use wcf\system\WCF;
  * @package	de.wbbaddons.dummy.app
  */
 class APPCore extends AbstractApplication {
-	protected $packageID = 0;
-	
 	public function init() {
-		$this->packageID = PackageDependencyHandler::getInstance()->getPackageID('de.wbbaddons.dummy.app');
-		
-		$this->initTPL();
 		PageMenu::getInstance()->setActiveMenuItem('app.header.menu.index');
 		WCF::getBreadcrumbs()->add(new Breadcrumb(
 			WCF::getLanguage()->get('app.header.menu.index'), 
@@ -29,10 +24,5 @@ class APPCore extends AbstractApplication {
 				'application' => 'app'
 			))
 		));
-	}
-	
-	protected function initTPL() {
-		self::getTPL()->addTemplatePath($this->packageID, APP_DIR.'templates/');
-		self::getTPL()->assign('__app', $this);
 	}
 }
