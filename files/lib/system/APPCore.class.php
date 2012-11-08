@@ -16,7 +16,7 @@ use wcf\system\WCF;
  * @package	de.wbbaddons.dummy.app
  */
 class APPCore extends AbstractApplication {
-	public function init() {
+	public function __run() {
 		PageMenu::getInstance()->setActiveMenuItem('app.header.menu.index');
 		WCF::getBreadcrumbs()->add(new Breadcrumb(
 			WCF::getLanguage()->get('app.header.menu.index'), 
