@@ -1,8 +1,8 @@
 <?php
 namespace app\system;
-use wcf\system\menu\page\PageMenu;
 use wcf\system\application\AbstractApplication;
 use wcf\system\breadcrumb\Breadcrumb;
+use wcf\system\menu\page\PageMenu;
 use wcf\system\package\PackageDependencyHandler;
 use wcf\system\request\LinkHandler;
 use wcf\system\WCF;
@@ -16,6 +16,9 @@ use wcf\system\WCF;
  * @package	de.wbbaddons.dummy.app
  */
 class APPCore extends AbstractApplication {
+	/**
+	 * @see wcf\system\application\AbstractApplication
+	 */
 	public function __run() {
 		PageMenu::getInstance()->setActiveMenuItem('app.header.menu.index');
 		WCF::getBreadcrumbs()->add(new Breadcrumb(
