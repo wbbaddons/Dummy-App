@@ -17,9 +17,17 @@ use wcf\system\WCF;
  */
 class APPCore extends AbstractApplication {
 	/**
+	 * @see	AbstractApplication::$abbreviation
+	 */
+	protected $abbreviation = 'app';
+	/**
 	 * @see wcf\system\application\AbstractApplication
 	 */
 	public function __run() {
+		if (!$this->isActiveApplication()) {
+			return;
+		}
+		
 		PageMenu::getInstance()->setActiveMenuItem('app.header.menu.index');
 		WCF::getBreadcrumbs()->add(new Breadcrumb(
 			WCF::getLanguage()->get('app.header.menu.index'), 
