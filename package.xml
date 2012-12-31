@@ -15,7 +15,6 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage file="requirements/com.woltlab.wcf.acl.tar">com.woltlab.wcf.acl</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.acp.language.tar">com.woltlab.wcf.acp.language</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.attachment.tar">com.woltlab.wcf.attachment</requiredpackage>
 		<requiredpackage file="requirements/com.woltlab.wcf.label.tar">com.woltlab.wcf.label</requiredpackage>
