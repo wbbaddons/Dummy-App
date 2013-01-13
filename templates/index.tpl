@@ -1,7 +1,7 @@
 {include file='documentHeader'}
 
 <head>
-	<title>{lang}app.header.menu.index{/lang} - {PAGE_TITLE|language}</title>
+	<title>{if $__wcf->getPageMenu()->getLandingPage()->menuItem != 'app.header.menu.index'}{lang}app.header.menu.index{/lang} - {/if}{PAGE_TITLE|language}</title>
 	
 	{include file='headInclude' sandbox=false}
 </head>
@@ -9,13 +9,20 @@
 <body id="tpl{$templateName|ucfirst}">
 {include file='header' sandbox=false}
 
-<header class="box48 boxHeadline">
-	<img src="{icon size='L'}home{/icon}" alt="" class="icon48" />
-	<hgroup>
-		<h1>{PAGE_TITLE|language}</h1>
-		{hascontent}<h2>{content}{PAGE_DESCRIPTION|language}{/content}</h2>{/hascontent}
-	</hgroup>
+<header class="boxHeadline">
+	{if $__wcf->getPageMenu()->getLandingPage()->menuItem == 'app.header.menu.index'}
+		<hgroup>
+			<h1>{PAGE_TITLE|language}</h1>
+			{hascontent}<h2>{content}{PAGE_DESCRIPTION|language}{/content}</h2>{/hascontent}
+		</hgroup>
+	{else}
+		<hgroup>
+			<h1>{lang}app.header.menu.index{/lang}</h1>
+		</hgroup>
+	{/if}
 </header>
+
+{include file='userNotice'}
 
 
 {include file='footer' sandbox=false}

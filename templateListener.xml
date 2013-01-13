@@ -21,11 +21,5 @@
 				<img src="{@$__wcf->getPath('app')}images/DummyAppLogo.svg" width="256" height="64" alt="Dummy App Logo" title="Dummy App Alpha 1" />]]>
 			</templatecode>
 		</templatelistener>
-		<templatelistener name="stylesheetImport">
-			<environment>user</environment>
-			<templatename>headInclude</templatename>
-			<eventname>stylesheetImport</eventname>
-			<templatecode><![CDATA[@import url("{@$__wcf->getPath('wcf')}style/user.css") screen;]]></templatecode>
-		</templatelistener>
 	</import>
 </data>
