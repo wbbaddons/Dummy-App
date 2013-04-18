@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/templatelistener.xsd">
 	<import>
-		<templatelistener name="dummyAppCSSInclude">
-			<environment>user</environment>
-			<templatename>headInclude</templatename>
-			<eventname>stylesheetImport</eventname>
-			<templatecode><![CDATA[
-	body {
-		background-image: url("{@$__wcf->getPath('app')}images/headerBG.svg");
-		background-repeat: repeat-x;
-		background-size: 1000px 300px;
-	}]]></templatecode>
-		</templatelistener>
-		<templatelistener name="dummyAppHeaderLogoInclude">
+		<templatelistener name="headerLogo">
 			<environment>user</environment>
 			<templatename>header</templatename>
 			<eventname>headerLogo</eventname>
-			<templatecode><![CDATA[
-				<h1>Dummy App Alpha 1</h1>
-				<img src="{@$__wcf->getPath('app')}images/DummyAppLogo.svg" width="256" height="64" alt="Dummy App Logo" title="Dummy App Alpha 1" />]]>
-			</templatecode>
+			<templatecode><![CDATA[{if $__app->isActiveApplication()}{if !$__wcf->getStyleHandler()->getStyle()->getPageLogo()}<img src="{@$__wcf->getPath('app')}images/dummyAppLogo.svg" width="256" height="64" alt="" />{/if}{/if}]]></templatecode>
 		</templatelistener>
 	</import>
 </data>
