@@ -38,5 +38,6 @@
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="pageMenu">pagemenu.xml</instruction>
 		<instruction type="templateListener">templateListener.xml</instruction>
+		<instruction type="script">acp/install_de_wbbaddons_dummy_app.php</instruction>
 	</instructions>
 </package>
