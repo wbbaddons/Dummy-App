@@ -5,8 +5,7 @@
 		<packagedescription><![CDATA[Dummy application for WoltLab Community Framework™]]></packagedescription>
 		<isapplication>1</isapplication>
 		<version>1.0.0 Alpha 1</version>
-		<date>2012-04-20</date>
-		<license>license.txt</license>
+		<date>2013-05-18</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -34,6 +33,14 @@
 	</requiredpackages>
 	
 	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="pageMenu">pagemenu.xml</instruction>
+		<instruction type="templateListener">templateListener.xml</instruction>
+		<instruction type="script">acp/install_de_wbbaddons_dummy_app.php</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
 		<instruction type="file">files.tar</instruction>
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="pageMenu">pagemenu.xml</instruction>
