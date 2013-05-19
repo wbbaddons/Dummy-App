@@ -5,7 +5,14 @@
 			<environment>user</environment>
 			<templatename>header</templatename>
 			<eventname>headerLogo</eventname>
-			<templatecode><![CDATA[{if $__app->isActiveApplication()}{if !$__wcf->getStyleHandler()->getStyle()->getPageLogo()}<img src="{@$__wcf->getPath('app')}images/dummyAppLogo.svg" width="256" height="64" alt="" />{/if}{/if}]]></templatecode>
+			<templatecode><![CDATA[{if $__app->isActiveApplication()}{if !$__wcf->getStyleHandler()->getStyle()->getPageLogo()}<img src="{$__wcf->getPath('app')}images/dummyAppLogo.svg" style="width: 256px; height: 64px;" alt="" />{/if}{/if}]]></templatecode>
+		</templatelistener>
+		
+		<templatelistener name="headerLogo">
+			<environment>admin</environment>
+			<templatename>header</templatename>
+			<eventname>headerLogo</eventname>
+			<templatecode><![CDATA[{if $__app->isActiveApplication()}<img src="{$__wcf->getPath('app')}images/dummyAppLogo.svg" style="width: 256px; height: 64px;" alt="" />{/if}]]></templatecode>
 		</templatelistener>
 	</import>
 </data>
