@@ -16,7 +16,6 @@
 	<requiredpackages>
 		<requiredpackage minversion="2.0.0 Alpha 1" file="requirements/com.woltlab.wcf.tar">com.woltlab.wcf</requiredpackage>
 		<requiredpackage minversion="1.0.0 Alpha 1" file="requirements/com.woltlab.wcf.attachment.tar">com.woltlab.wcf.attachment</requiredpackage>
-		<requiredpackage minversion="1.0.0 Alpha 1" file="requirements/com.woltlab.wcf.bbcode.tar">com.woltlab.wcf.bbcode</requiredpackage>
 		<requiredpackage minversion="1.0.0 Alpha 1" file="requirements/com.woltlab.wcf.ckeditor.tar">com.woltlab.wcf.ckeditor</requiredpackage>
 		<requiredpackage minversion="1.0.0 Alpha 1" file="requirements/com.woltlab.wcf.recaptcha.tar">com.woltlab.wcf.recaptcha</requiredpackage>
 		<requiredpackage minversion="1.0.0 Alpha 1" file="requirements/com.woltlab.wcf.message.tar">com.woltlab.wcf.message</requiredpackage>
