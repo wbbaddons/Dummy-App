@@ -14,5 +14,15 @@
 			<eventname>headerLogo</eventname>
 			<templatecode><![CDATA[{if $__app->isActiveApplication()}<img src="{$__wcf->getPath('app')}images/dummyAppLogo.svg" style="width: 256px; height: 64px;" alt="" />{/if}]]></templatecode>
 		</templatelistener>
+		
+		<templatelistener name="softwareVersions">
+                        <environment>admin</environment>
+                        <templatename>index</templatename>
+                        <eventname>softwareVersions</eventname>
+                        <templatecode><![CDATA[<dl>
+        <dt>{lang}wcf.acp.index.system.software.appVersion{/lang}</dt>
+        <dd>{$__app->getPackage()->packageVersion}</dd>
+</dl>]]></templatecode>
+                </templatelistener>
 	</import>
 </data>
