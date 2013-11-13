@@ -1,7 +1,6 @@
 <?php
 namespace app\page;
 use wcf\page\AbstractPage;
-use wcf\system\WCF;
 
 /**
  * Shows the index page.
