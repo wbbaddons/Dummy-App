@@ -3,7 +3,6 @@ namespace app\system;
 use wcf\system\application\AbstractApplication;
 use wcf\system\breadcrumb\Breadcrumb;
 use wcf\system\menu\page\PageMenu;
-use wcf\system\package\PackageDependencyHandler;
 use wcf\system\request\LinkHandler;
 use wcf\system\WCF;
 
@@ -17,11 +16,12 @@ use wcf\system\WCF;
  */
 class APPCore extends AbstractApplication {
 	/**
-	 * @see	AbstractApplication::$abbreviation
+	 * @see	\wcf\system\application\AbstractApplication::$abbreviation
 	 */
 	protected $abbreviation = 'app';
+	
 	/**
-	 * @see wcf\system\application\AbstractApplication
+	 * @see \wcf\system\application\AbstractApplication::__run()
 	 */
 	public function __run() {
 		if (!$this->isActiveApplication()) {
