@@ -16,13 +16,13 @@
 		</templatelistener>
 		
 		<templatelistener name="softwareVersions">
-                        <environment>admin</environment>
-                        <templatename>index</templatename>
-                        <eventname>softwareVersions</eventname>
-                        <templatecode><![CDATA[<dl>
-        <dt>{lang}wcf.acp.index.system.software.appVersion{/lang}</dt>
-        <dd>{$__app->getPackage()->packageVersion}</dd>
+			<environment>admin</environment>
+			<templatename>index</templatename>
+			<eventname>softwareVersions</eventname>
+			<templatecode><![CDATA[<dl>
+	<dt>{lang}wcf.acp.index.system.software.appVersion{/lang}</dt>
+	<dd>{$__app->getPackage()->packageVersion}</dd>
 </dl>]]></templatecode>
-                </templatelistener>
+		</templatelistener>
 	</import>
 </data>
