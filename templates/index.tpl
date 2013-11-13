@@ -11,14 +11,10 @@
 
 <header class="boxHeadline">
 	{if $__wcf->getPageMenu()->getLandingPage()->menuItem == 'app.header.menu.index'}
-		<hgroup>
-			<h1>{PAGE_TITLE|language}</h1>
-			{hascontent}<h2>{content}{PAGE_DESCRIPTION|language}{/content}</h2>{/hascontent}
-		</hgroup>
+		<h1>{PAGE_TITLE|language}</h1>
+		{hascontent}<h2>{content}{PAGE_DESCRIPTION|language}{/content}</h2>{/hascontent}
 	{else}
-		<hgroup>
-			<h1>{lang}app.header.menu.index{/lang}</h1>
-		</hgroup>
+		<h1>{lang}app.header.menu.index{/lang}</h1>
 	{/if}
 </header>
 
